@@ -1,0 +1,76 @@
+body{
+    background:#817e7a;
+    font-family: "Nunito",sans-serif;
+}
+h2{
+    color:#3b2023;
+    font-weight:400px;
+    font-size: 2rem;
+}
+p{
+    color:#530a24;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+#mainNavbar .navbar-brand{
+color:#990819;
+font-size: 1.5rem;
+font-weight:100;
+}
+#mainNavbar {
+  font-size: 1.5rem;
+font-weight:100   
+}
+#mainNavbar .nav-link{
+    color:rgb(195, 239, 241);
+
+}
+#mainNavbar .nav-link:hover{
+    color:#3b2023;
+
+}
+#intro h1{
+    color:rgb(195, 239, 241);
+    font-size:4rem;
+}
+.content{
+    margin-top:100px;
+}
+.navbar.scrolled{
+    background-color: #f0c4bb70;
+}
+
+#museum{
+    height:100vh;
+}
+.museum{
+    height: 100vh;
+}
+@media(max-width:1800px){
+    
+}
+@media(max-width:991px){
+    #intro{
+        display:none;
+     }    
+    #mainNavbar .navbar-brand{
+        color:#e7dedf;
+        font-size: 2rem;
+        font-weight:400px;
+        }       
+       .navbar-toggler{
+           background-color: rgba(227, 233, 233,0.2);
+       }
+       
+}
+@media(max-width:600px){
+    .museum{
+        height: 50vh;
+    }
+    #museum{
+        height:50vh;
+    }
+ 
+    
+}
